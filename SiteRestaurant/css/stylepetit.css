@@ -1,0 +1,146 @@
+@media screen and (max-width: 1000px){
+
+nav #menu{
+
+}
+
+.navbar{
+  display: flex;
+  flex-wrap: wrap;
+}
+.logo{
+  width: 100%;
+  justify-content: center;
+}
+
+nav #menu{
+  width: 100%;
+  text-align: center;
+  display: none;
+}
+nav #menu li{
+  display: block;
+}
+nav #menu li a{
+  width: 100%;
+
+}
+#hamburger{
+  top: 40px;
+  right: 0;
+  display: block;
+  position: absolute;
+  font-size: 25px;
+}
+#hamburger:hover, #hamburgerferme:hover{
+  font-size: 28px;
+  color:orange;
+}
+#hamburgerferme{
+  top: 15%;
+  right: 0;
+  position: absolute;
+  font-size: 30px;
+}
+#menu:active{
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.colmain{
+  display: inline-block;
+}
+.col-re{
+  text-align: center;
+}
+.col-r img{
+  border-radius: 10% / 50%;
+}
+footer p{
+  font-size: 12px;
+}
+.container2 h2{
+  font-size: 12px;
+}
+.container2 a{
+  padding: 1px;
+}
+.container2{
+  text-align: center;
+}
+.col-re h1,.col-re h2{
+  font-size:35px;
+}
+.col-re p{
+  font-size: 15px;
+}
+.pre-footer{
+text-align: center;
+}
+.pre-footer div{
+  width: 100%;
+}
+#menu li a:after{
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+}
+.navbar{
+padding: 0;
+}
+
+.menucarte .btncarte{
+  width: 40%;
+}
+
+.h5{
+  font-size: 20px;
+}
+.p{
+  font-size: 10px;
+}
+
+  #saladecover img, #tandooriCover img, #painCover img,#platCover img,#BoissonCover img, #DessertCover img{
+    width: 70%;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 750px){
+  #saladecover img, #tandooriCover img, #painCover img,#platCover img,#BoissonCover img, #DessertCover img{
+    width: 100%;
+    height: 300px;
+  }
+  .disp table{
+    width: 100%;
+  }
+  .menucarte .btncarte{
+    width: 100%;
+  }
+  .col-r img{
+    width: 200px;
+    height: 300px;
+  }
+  .container2 h2{
+    display: none;
+  }
+  .container2{
+    display: none;
+
+  }
+  .infologo p{
+    display: none;
+  }
+  .infologo{
+    margin-top:3%;
+  }
+  .informations2{
+    display: flex;
+    justify-content: space-around;
+  }
+  #menu li a{
+    font-size: 18px;
+  }
+  .colmain .res{
+	  font-size:14px;
+}
+
+}

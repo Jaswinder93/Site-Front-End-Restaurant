@@ -1,0 +1,1693 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Restaurant Taj Mahal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+   <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/stylepetit.css">
+
+  <script src="js/script.js"></script>
+</head>
+
+<body id="tout">
+  <div class='top'></div>
+  <div class="header">
+  <div class="container">
+	<div class="navbar">
+	   <div class="logo">
+       <a href="index.html">  <img src="images/logo.png" width="100px" al="logo taj mahal"></a>
+       <div class="infologo">
+         <h1>Restaurant</h1>
+        <h2>Taj Mahal</h2>
+         <p>Les Saveurs de l'Asie</p>
+
+       </div>
+     </div>
+     <div id="hamburger" onclick=""><i class="fa fa-bars"></i></div>
+     <div id="hamburgerferme" onclick=""><i class="fa fa-times-circle"></i></div>
+     <nav>
+        <ul id="menu">
+          <li><a onClick="changer(this)" id="active1" href="lacarte.html"><i id="un" class="fa fa-caret-right" style="visibility:visible;">&ensp;</i>A la carte</a></li>
+          <li><a onClick="changer(this)" id="active2" href="Menu.html"><i id="deux" class="fa fa-caret-right" style="visibility:hidden;">&ensp;</i></i>Menu</a></li>
+          <li><a onClick="changer(this)" id="active3" href="contact.html"><i id="trois" class="fa fa-caret-right" style="visibility:hidden;">&ensp;</i></i>Contact</a></li>
+        </ul>
+      </nav>
+
+	</div>
+</div>
+<div class="container2">
+	<h2>&ensp;Commandez ici :
+      <a href="https://www.ubereats.com/fr/paris/food-delivery/taj-mahal/JP9zIyg4RdihwVa0N7lmoA?utm_source=google&utm_medium=organic&utm_campaign=place-action-link"><img  src="images/uber.jpg" href="#" width=40px   alt="uber" /></a>
+    <a href="https://www.just-eat.fr/menu/taj-mahal-30?utm_campaign=foodorder&utm_medium=organic&utm_source=google"><img  src="images/justeat.png" href="#" width=40px   alt="just eat" /></a>
+    <a href="https://deliveroo.fr/fr/menu/paris/paris-12eme-bel-air/taj-mahal-france?utm_medium=affiliate&utm_source=google_maps_link"><img  src="images/deliveroo.png" href="#" width=40px   alt="deliveroo" /></a>
+
+
+   </h2>
+
+	<div class="informations">
+		<i class="fa fa-map-marker" style="font-size:16px">&ensp;106 Avenue de Saint-Mandé, 75012 Paris</i>
+		<a class="tel" href="tel:+33143441195">
+			<i class="fa fa-phone" style="font-size:16px" aria-hidden="true">&ensp;01 43 44 11 95</i>
+		</a>
+	</div>
+</div>
+</div>
+<div class="informations2">
+  <i class="fa fa-map-marker" style="font-size:16px">&ensp;106 Avenue de Saint-Mandé, 75012 Paris</i>
+  <a class="tel" href="tel:+33143441195">
+    <i class="fa fa-phone" style="font-size:16px" aria-hidden="true">&ensp;01 43 44 11 95</i>
+  </a>
+</div>
+<div id="Carte">
+<div class="maincarte">
+    <h3>De nombreuses variétés de la cuisine indienne à découvrir !</h3>
+</div>
+<div class="menucarte">
+  <a href="#saladecover" class="btncarte btn1">Nos salades   &ensp;&ensp; <span class="iconify" data-icon="twemoji-green-salad" width="25px" data-inline="false"></span> &ensp;&ensp;<i class="fa fa-angle-right"></i></a>
+  <a href="#tandooriCover" class="btncarte btn2">Entrées tandoori  &ensp;&ensp; <span class="iconify" data-icon="whh:chickenalt" width="25px" data-inline="false"></span>&ensp;&ensp;<i class="fa fa-angle-right"></i></a>
+  <a href="#painCover" class="btncarte btn3">Pains &ensp;&ensp;  <span class="iconify" data-icon="twemoji:flatbread" width="20px" data-inline="false"></span>&ensp;&ensp;<i class="fa fa-angle-right"></i></a>
+  <a href="#platCover" class="btncarte btn4">Plats principaux &ensp;&ensp;  <span class="iconify" data-icon="bx:bxs-dish" width="25px" data-inline="false"></span>&ensp;&ensp;<i class="fa fa-angle-right"></i></a>
+  <a href="#DessertCover" class="btncarte btn5">Desserts &ensp;&ensp;  <span class="iconify" data-icon="emojione-monotone:ice-cream" width="20px" data-inline="false"></span>&ensp;&ensp;<i class="fa fa-angle-right"></i></a>
+  <a href="#BoissonCover" class="btncarte btn6">Boissons&ensp;&ensp;  <span class="iconify" width="25px" data-icon="emojione-monotone:tropical-drink" data-inline="false"></span>&ensp;&ensp;<i class="fa fa-angle-right"></i></a>
+  </div>
+</div>
+<div id="saladecover">
+  <img  src="images/salade.jpg"   alt="Photo salade" />
+</div>
+<div id="contenuCarte">
+  <div class="maincarte">
+  <h2>Nos salades  &ensp;&ensp;&ensp;  <span class="iconify" data-icon="twemoji-green-salad" width="50px" data-inline="false"></span></h2>
+</div>
+
+    <div class="disp">
+        <table>
+        <tr>
+          <td class="h5 produit">Salade mixte</td>
+          <td class="h5 prix">5,00 €</td>
+        </tr>
+        <tr>
+          <td class="p"></td>
+          <td></td>
+        </tr>
+
+      </table>
+
+          <table>
+          <tr>
+            <td class="h5 produit">Salade au poulet</td>
+            <td class="h5 prix">6,00 €</td>
+          </tr>
+          <tr>
+            <td class="p"></td>
+            <td></td>
+          </tr>
+
+        </table>
+
+            <table>
+            <tr>
+              <td class="h5 produit">Salade aux crevettes</td>
+              <td class="h5 prix">7,00 €</td>
+            </tr>
+            <tr>
+              <td class="p"></td>
+              <td></td>
+            </tr>
+
+          </table>
+    </div>
+
+</div>
+
+<div id="tandooriCover">
+  <img  src="images/tandoori.jpg"   alt="Photo tandoori" />
+</div>
+<div id="contenuCarte">
+  <div class="maincarte">
+  <h2>Entrées Tandoori  &ensp;&ensp;&ensp; <span class="iconify" data-icon="whh:chickenalt" width="35px" data-inline="false"></span></h2>
+</div>
+  <div class="disp">
+      <table>
+      <tr>
+        <td class="h5 produit">Raita</td>
+        <td class="h5 prix">3,50 €</td>
+      </tr>
+      <tr>
+        <td class="p">Yaourt aux légumes et aux épices</td>
+        <td></td>
+      </tr>
+
+    </table>
+    <table>
+    <tr>
+      <td class="h5 produit">Oignons Bhajia</td>
+      <td class="h5 prix">3,50 €</td>
+    </tr>
+    <tr>
+      <td class="p">4 Rondelles d'oignons en beignet à la farine de pois de chiches, épicé</td>
+      <td></td>
+    </tr>
+  </table>
+  <table>
+  <tr>
+    <td class="h5 produit">Aloo Pakora</td>
+    <td class="h5 prix">3,50 €</td>
+  </tr>
+  <tr>
+    <td class="p">4 Beignets de pommes de terre à la farine de pois de chiches et épices variées, peu épicés</td>
+    <td></td>
+  </tr>
+
+</table>
+<table>
+<tr>
+  <td class="h5 produit">Pakora Aubergine</td>
+  <td class="h5 prix">4,00 €</td>
+</tr>
+<tr>
+  <td class="p">4 Beignets d'aubergines à la farine de pois de chiches et épices variées, peu épicés</td>
+  <td></td>
+</tr>
+
+</table>
+
+<table>
+<tr>
+  <td class="h5 produit">Paneer Pakora</td>
+  <td class="h5 prix">7,00 €</td>
+</tr>
+<tr>
+  <td class="p">4 Beignets de fromage maison à la farine de pois de chiches et épices variées, peu épicés</td>
+  <td></td>
+</tr>
+
+</table>
+
+<table>
+<tr>
+  <td class="h5 produit">Samossa Sabzi</td>
+  <td class="h5 prix">5,00 €</td>
+</tr>
+<tr>
+  <td class="p">2 Beignets de légumes, peu épicés</td>
+  <td></td>
+</tr>
+
+</table>
+<table>
+<tr>
+  <td class="h5 produit">Dall Soupe</td>
+  <td class="h5 prix">5,00 €</td>
+</tr>
+<tr>
+  <td class="p">Soupe de lentilles</td>
+  <td></td>
+</tr>
+
+</table>
+<table>
+<tr>
+  <td class="h5 produit">Samossa viande</td>
+  <td class="h5 prix">5,00 €</td>
+</tr>
+<tr>
+  <td class="p">2 Beignets d'agneau haché, peu épicés</td>
+  <td></td>
+</tr>
+
+</table>
+<table>
+<tr>
+  <td class="h5 produit">Poulet Kebab</td>
+  <td class="h5 prix">6,00 €</td>
+</tr>
+<tr>
+  <td class="p">2 pièces de poulet haché aux épices</td>
+  <td></td>
+</tr>
+
+</table>
+<table>
+<tr>
+  <td class="h5 produit">Poulet Tandoori</td>
+  <td class="h5 prix">7,00 €</td>
+</tr>
+<tr>
+  <td class="p">Cuisse de poulet grillé au four tandoori, peu épicé</td>
+  <td></td>
+</tr>
+
+</table>
+
+<table>
+<tr>
+  <td class="h5 produit">Poulet Tikka</td>
+  <td class="h5 prix">7,00 €</td>
+</tr>
+<tr>
+  <td class="p">4 pièces de poulet désossé mariné aux épices, grillé au four tandoor</td>
+  <td></td>
+</tr>
+
+</table>
+<table>
+<tr>
+  <td class="h5 produit">Paneer Tikka</td>
+  <td class="h5 prix">8,00 €</td>
+</tr>
+<tr>
+  <td class="p">4 pièces de fromage maison mariné aux épices, grillé au four tandoor</td>
+  <td></td>
+</tr>
+
+</table>
+
+<table>
+<tr>
+  <td class="h5 produit">Sheek Kebab</td>
+  <td class="h5 prix">7,00 €</td>
+</tr>
+<tr>
+  <td class="p">2 pièces d'agneau haché, coriandre et épices</td>
+  <td></td>
+</tr>
+
+</table>
+
+<table>
+<tr>
+  <td class="h5 produit">Bara Kebab</td>
+  <td class="h5 prix">7,00 €</td>
+</tr>
+<tr>
+  <td class="p">Jarret d'agneau mariné aux épices variées</td>
+  <td></td>
+</tr>
+
+</table>
+
+<table>
+<tr>
+  <td class="h5 produit">Agneau Tikka</td>
+  <td class="h5 prix">8,00 €</td>
+</tr>
+<tr>
+  <td class="p">4 pièces d'agneau mariné aux épices, grillé au four tandoor</td>
+  <td></td>
+</tr>
+
+</table>
+<table>
+<tr>
+  <td class="h5 produit">Fish Tikka</td>
+  <td class="h5 prix">8,00 €</td>
+</tr>
+<tr>
+  <td class="p">4 pièces de poisson grillé en morceaux</td>
+  <td></td>
+</tr>
+
+</table>
+<table>
+<tr>
+  <td class="h5 produit">Gambas Tandoori</td>
+  <td class="h5 prix">15,00 €</td>
+</tr>
+<tr>
+  <td class="p">4 pièces de gambas décortiquées émincées, en sauce, grillé au four tandoor</td>
+  <td></td>
+</tr>
+
+</table>
+<table>
+<tr>
+  <td class="h5 produit">Mix Grill Kashmir</td>
+  <td class="h5 prix">17,00 €</td>
+</tr>
+<tr>
+  <td class="p">Cocktail d'entrée grillé concocté par le chef (pour 2 personnes) </td>
+  <td></td>
+</tr>
+
+</table>
+
+  </div>
+</div>
+
+
+<div id="painCover">
+  <img  src="images/naan.jpg"   alt="Photo naan" />
+</div>
+<div id="contenuCarte">
+  <div class="maincarte">
+  <h2>Pains  &ensp;&ensp;&ensp;   <span class="iconify" data-icon="twemoji:flatbread" width="35px" data-inline="false"></span></h2>
+</div>
+  <div class="contentPains">
+    <h5>Farine blanche</h5>
+    <div class="disp">
+    <table>
+    <tr>
+      <td class="h5 produit">Naan</td>
+      <td class="h5 prix">2,00 €</td>
+    </tr>
+    <tr>
+      <td class="p">Pâte à pain levée à la farine blanche </td>
+      <td></td>
+    </tr>
+
+    </table>
+
+    <table>
+    <tr>
+      <td class="h5 produit">Cheese Naan</td>
+      <td class="h5 prix">4,00 €</td>
+    </tr>
+    <tr>
+      <td class="p">Pâte à pain levée à la farine blanche fourrée au fromage </td>
+      <td></td>
+    </tr>
+
+    </table>
+
+    <table>
+    <tr>
+      <td class="h5 produit">Garlic Naan</td>
+      <td class="h5 prix">3,50 €</td>
+    </tr>
+    <tr>
+      <td class="p">Pâte à pain levée à la farine blanche garnie à l'ail </td>
+      <td></td>
+    </tr>
+
+    </table>
+
+    <table>
+    <tr>
+      <td class="h5 produit">Keema Naan</td>
+      <td class="h5 prix">4,50 €</td>
+    </tr>
+    <tr>
+      <td class="p">Pâte à pain levée à la farine blanche fourrée à la viande haché </td>
+      <td></td>
+    </tr>
+
+    </table>
+    <table>
+    <tr>
+      <td class="h5 produit">Paratha Kashmiri</td>
+      <td class="h5 prix">4,00 €</td>
+    </tr>
+    <tr>
+      <td class="p">Naan fourré avec de la pistache, des amendes et du coco </td>
+      <td></td>
+    </tr>
+
+    </table>
+    <table>
+    <tr>
+      <td class="h5 produit">Garlic Cheese  Naan</td>
+      <td class="h5 prix">4,50 €</td>
+    </tr>
+    <tr>
+      <td class="p">Pâte à pain levée à la farine blanche fourrée au fromage et à l'ail</td>
+      <td></td>
+    </tr>
+
+    </table>
+
+      <hr  style="width:80%;color: #9d0606;  margin-top:5%;   border-top: 3px double #9d0606;text-align:center;">
+    </div>
+
+
+      <h5>Blé complet</h5>
+
+
+      <div class="disp">
+
+        <table>
+        <tr>
+          <td class="h5 produit">Chapatti</td>
+          <td class="h5 prix">2,00 €</td>
+        </tr>
+        <tr>
+          <td class="p">Pain nature, farine complète, pâte non lévée</td>
+          <td></td>
+        </tr>
+
+        </table>
+
+        <table>
+        <tr>
+          <td class="h5 produit">Paratha</td>
+          <td class="h5 prix">3,00 €</td>
+        </tr>
+        <tr>
+          <td class="p">Pâte à base de farine complète beurée non levée </td>
+          <td></td>
+        </tr>
+
+        </table>
+
+        <table>
+        <tr>
+          <td class="h5 produit">Sotfa Paratha</td>
+          <td class="h5 prix">4,00 €</td>
+        </tr>
+        <tr>
+          <td class="p">Naan fourrée aux pommes de terre, petit pois </td>
+          <td></td>
+        </tr>
+
+        </table>
+
+      </div>
+  </div>
+</div>
+<div id="platCover">
+  <img  src="images/plat.jpg"   alt="Photo plats principaux" />
+</div>
+
+<div id="contenuCarte">
+  <div class="maincarte">
+  <h2>Plats principaux   &ensp;&ensp;&ensp;   <span class="iconify" data-icon="bx:bxs-dish" width="35px" data-inline="false"></span> <br>(Garniture non comprise)</h2>
+</div>
+<h5>Plats Agneau</h5>
+
+
+<div class="disp">
+
+  <table>
+  <tr>
+    <td class="h5 produit">Agneau curry</td>
+    <td class="h5 prix">11,00 €</td>
+  </tr>
+  <tr>
+    <td class="p">Agneau haché au curry</td>
+    <td></td>
+  </tr>
+
+  </table>
+  <table>
+  <tr>
+    <td class="h5 produit">Agneau Keema matar</td>
+    <td class="h5 prix">11,00 €</td>
+  </tr>
+  <tr>
+    <td class="p">Agneau haché aux petits pois au curry (légèrement épicé)</td>
+    <td></td>
+  </tr>
+
+  </table>
+  <table>
+  <tr>
+    <td class="h5 produit">Kofta Kashmiri</td>
+    <td class="h5 prix">11,00 €</td>
+  </tr>
+  <tr>
+    <td class="p">Boulettes de boeuf haachée, préparées dans une sauce douce</td>
+    <td></td>
+  </tr>
+
+  </table>
+  <table>
+  <tr>
+    <td class="h5 produit">Agneau Roghan Josh</td>
+    <td class="h5 prix">12,00 €</td>
+  </tr>
+  <tr>
+    <td class="p">Agneau au curry, curry traditionnel, peu épicé</td>
+    <td></td>
+  </tr>
+
+  </table>
+  <table>
+  <tr>
+    <td class="h5 produit">Agneau Madras</td>
+    <td class="h5 prix">12,00 €</td>
+  </tr>
+  <tr>
+    <td class="p">Curry d'agneau préparé dans une sauce Madras (relevé)</td>
+    <td></td>
+  </tr>
+
+  </table>
+
+  <table>
+  <tr>
+    <td class="h5 produit">Agneau Punjabi</td>
+    <td class="h5 prix">12,00 €</td>
+  </tr>
+  <tr>
+    <td class="p">Curry d'agneau aux épices indiennes (relevé)</td>
+    <td></td>
+  </tr>
+
+  </table>
+  <table>
+  <tr>
+    <td class="h5 produit">Agneau Vindallo</td>
+    <td class="h5 prix">12,00 €</td>
+  </tr>
+  <tr>
+    <td class="p">Curry d'agneau, sauce vindaloo, pommes de terres (relevé à la demande)</td>
+    <td></td>
+  </tr>
+
+  </table>
+  <table>
+  <tr>
+    <td class="h5 produit">Agneau Palak</td>
+    <td class="h5 prix">12,00 €</td>
+  </tr>
+  <tr>
+    <td class="p">Agréable mélange d'agneau et d'épinards, peu épicé</td>
+    <td></td>
+  </tr>
+
+  </table>
+  <table>
+  <tr>
+    <td class="h5 produit">Agneau Kashmiri</td>
+    <td class="h5 prix">12,00 €</td>
+  </tr>
+  <tr>
+    <td class="p">Morceaux d'agneau, noix de cajou, amande, crème fraîche</td>
+    <td></td>
+  </tr>
+
+  </table>
+  <table>
+  <tr>
+    <td class="h5 produit">Agneau Tikka Massala</td>
+    <td class="h5 prix">13,00 €</td>
+  </tr>
+  <tr>
+    <td class="p">Morceaux d'agneau désossés, grillés au tandoor, sauce aux épices variées</td>
+    <td></td>
+  </tr>
+
+  </table>
+  <table>
+  <tr>
+    <td class="h5 produit">Agneau Balti<br> (1 personne)</td>
+    <td class="h5 prix">14,00 €</td>
+  </tr>
+  <tr>
+    <td class="p">Agneau, yaourt nature, gingembre, ail, aux épices indiennes</td>
+    <td></td>
+  </tr>
+
+  </table>
+  <table>
+  <tr>
+    <td class="h5 produit">Agneau Balti <br>(2 personnes)</td>
+    <td class="h5 prix">26,00 €</td>
+  </tr>
+  <tr>
+    <td class="p">Agneau, yaourt nature, gingembre, ail, aux épices indiennes</td>
+    <td></td>
+  </tr>
+
+  </table>
+
+
+  <hr  style="width:80%;color: #9d0606; margin-top:5%;   border-top: 3px double #9d0606;text-align:center;">
+</div>
+<h5>Plats Poulet</h5>
+<div class="disp">
+
+  <table>
+  <tr>
+    <td class="h5 produit">Poulet curry</td>
+    <td class="h5 prix">10,00 €</td>
+  </tr>
+  <tr>
+    <td class="p">Curry de poulet traditionnel</td>
+    <td></td>
+  </tr>
+
+  </table>
+  <table>
+  <tr>
+    <td class="h5 produit">Poulet Massala</td>
+    <td class="h5 prix">11,00 €</td>
+  </tr>
+  <tr>
+    <td class="p">Curry de poulet, sauce aux épices variées, épicé</td>
+    <td></td>
+  </tr>
+
+  </table>
+  <table>
+  <tr>
+    <td class="h5 produit">Poulet Palak</td>
+    <td class="h5 prix">11,00 €</td>
+  </tr>
+  <tr>
+    <td class="p">Agréable mélange de poulet et d'épinards, peu épicé</td>
+    <td></td>
+  </tr>
+
+  </table>
+  <table>
+  <tr>
+    <td class="h5 produit">Poulet Vindaloo</td>
+    <td class="h5 prix">11,00 €</td>
+  </tr>
+  <tr>
+    <td class="p">Curry de poulet, pommes de terres, épicé et relevé à la demande</td>
+    <td></td>
+  </tr>
+
+  </table>
+  <table>
+  <tr>
+    <td class="h5 produit">Poulet Shahi Korma</td>
+    <td class="h5 prix">11,00 €</td>
+  </tr>
+  <tr>
+    <td class="p">Morceaux de poulet, noix de cajou, amande, crème fraîche</td>
+    <td></td>
+  </tr>
+
+  </table>
+
+  <table>
+  <tr>
+    <td class="h5 produit">Poulet Madras</td>
+    <td class="h5 prix">11,00 €</td>
+  </tr>
+  <tr>
+    <td class="p">Curry de poulet préparé dans une sauce Madras (relevé)</td>
+    <td></td>
+  </tr>
+
+  </table>
+  <table>
+  <tr>
+    <td class="h5 produit">Poulet Mughlai</td>
+    <td class="h5 prix">11,00 €</td>
+  </tr>
+  <tr>
+    <td class="p">Curry de poulet aux oeufs, peu épicé</td>
+    <td></td>
+  </tr>
+
+  </table>
+  <table>
+  <tr>
+    <td class="h5 produit">Poulet Tikka Massala</td>
+    <td class="h5 prix">12,00 €</td>
+  </tr>
+  <tr>
+    <td class="p">Morceaux de poulet désossés, grillés aux tandoor, sauce aux épices variées</td>
+    <td></td>
+  </tr>
+
+  </table>
+  <table>
+  <tr>
+    <td class="h5 produit">butter Chicken</td>
+    <td class="h5 prix">12,00 €</td>
+  </tr>
+  <tr>
+    <td class="p">spécialité du chef, poulet grillé au tandoor, avec une sauce tomate, crème fraîche</td>
+    <td></td>
+  </tr>
+
+  </table>
+  <table>
+  <tr>
+    <td class="h5 produit">Poulet Balti<br>(1 personne)</td>
+    <td class="h5 prix">13,00 €</td>
+  </tr>
+  <tr>
+    <td class="p">Poulet, yaourt nature, gingembre, ail, aux épices indiennes</td>
+    <td></td>
+  </tr>
+
+  </table>
+  <table>
+  <tr>
+    <td class="h5 produit">Poulet Balti<br>(2 personnes)</td>
+    <td class="h5 prix">22,00 €</td>
+  </tr>
+  <tr>
+    <td class="p">Poulet, yaourt nature, gingembre, ail, aux épices indiennes</td>
+    <td></td>
+  </tr>
+
+  </table>
+
+    <hr  style="width:80%;color: #9d0606;  margin-top:5%;   border-top: 3px double #9d0606;text-align:center;">
+</div>
+
+<h5>Riz Basmati</h5>
+<div class="disp">
+<table>
+<tr>
+  <td class="h5 produit">Riz au Safran</td>
+  <td class="h5 prix">3,50 €</td>
+</tr>
+<tr>
+  <td class="p"></td>
+  <td></td>
+</tr>
+
+</table>
+<table>
+<tr>
+  <td class="h5 produit">Matarr Pullao</td>
+  <td class="h5 prix">5,00 €</td>
+</tr>
+<tr>
+  <td class="p">Riz jeune avec petits pois</td>
+  <td></td>
+</tr>
+
+</table>
+<table>
+<tr>
+  <td class="h5 produit">Riz Kashmiri</td>
+  <td class="h5 prix">5,00 €</td>
+</tr>
+<tr>
+  <td class="p">Fruit secs, et noix de cajou</td>
+  <td></td>
+</tr>
+
+</table>
+
+    <hr  style="width:80%;color: #9d0606;  margin-top:5%;   border-top: 3px double #9d0606;text-align:center;">
+</div>
+<h5>Poissons</h5>
+
+<div class="disp">
+<table>
+<tr>
+  <td class="h5 produit">Poisson Curry</td>
+  <td class="h5 prix">11,00 €</td>
+</tr>
+<tr>
+  <td class="p">Curry de poisson traditionnel</td>
+  <td></td>
+</tr>
+
+</table>
+<table>
+<tr>
+  <td class="h5 produit">Poisson Madras</td>
+  <td class="h5 prix">11,00 €</td>
+</tr>
+<tr>
+  <td class="p">Curry de poisson préparé dans une sauce Madras (relevé)</td>
+  <td></td>
+</tr>
+
+</table>
+<table>
+<tr>
+  <td class="h5 produit">Poisson Shahi Korma</td>
+  <td class="h5 prix">13,00 €</td>
+</tr>
+<tr>
+  <td class="p">Poisson cuit au tandoor, amandes, noix de cajou et sauce aux pistaches</td>
+  <td></td>
+</tr>
+
+</table>
+
+<table>
+<tr>
+  <td class="h5 produit">Poisson Tikka Massala</td>
+  <td class="h5 prix">13,00 €</td>
+</tr>
+<tr>
+  <td class="p">Poisson grillé au tandoor, sauce aux épices variées</td>
+  <td></td>
+</tr>
+
+</table>
+
+    <hr  style="width:80%;color: #9d0606; margin-top:5%;    border-top: 3px double #9d0606;text-align:center;">
+
+</div>
+
+<h5>Crevettes et Gambas</h5>
+<div class="disp">
+  <table>
+  <tr>
+    <td class="h5 produit">Crevettes au Curry</td>
+    <td class="h5 prix">11,00 €</td>
+  </tr>
+  <tr>
+    <td class="p">Curry de crevettes traditionnel</td>
+    <td></td>
+  </tr>
+
+  </table>
+  <table>
+  <tr>
+    <td class="h5 produit">Crevettes Madras</td>
+    <td class="h5 prix">11,00 €</td>
+  </tr>
+  <tr>
+    <td class="p">Curry de crevettes préparé dans une sauce Madras (relevé)</td>
+    <td></td>
+  </tr>
+
+  </table>
+  <table>
+  <tr>
+    <td class="h5 produit">Crevettes Massala</td>
+    <td class="h5 prix">11,00 €</td>
+  </tr>
+  <tr>
+    <td class="p">Curry de crevettes décortiquées aux épices indiennes, relevé</td>
+    <td></td>
+  </tr>
+
+  </table>
+  <table>
+  <tr>
+    <td class="h5 produit">Crevettes Shahi Korma</td>
+    <td class="h5 prix">13,00 €</td>
+  </tr>
+  <tr>
+    <td class="p">Curry de crevettes, poudre d'amandes, noix de cajou et sauce à la crème fraîche</td>
+    <td></td>
+  </tr>
+
+  </table>
+
+  <table>
+  <tr>
+    <td class="h5 produit">Gambas Massala</td>
+    <td class="h5 prix">18,00 €</td>
+  </tr>
+  <tr>
+    <td class="p">Curry de Gambas décortiquées, sauce relevée</td>
+    <td></td>
+  </tr>
+
+  </table>
+  <table>
+  <tr>
+    <td class="h5 produit">Gambas Kashmiri</td>
+    <td class="h5 prix">18,00 €</td>
+  </tr>
+  <tr>
+    <td class="p">Gambas marinées, noix de cajou, crème fraîche</td>
+    <td></td>
+  </tr>
+
+  </table>
+      <hr  style="width:80%;color: #9d0606; margin-top:5%;    border-top: 3px double #9d0606;text-align:center;">
+</div>
+<h5>Biryani</h5>
+<div class="disp">
+  <table>
+  <tr>
+    <td class="h5 produit">Biryani Légumes</td>
+    <td class="h5 prix">11,00 €</td>
+  </tr>
+  <tr>
+    <td class="p">Mélange de légumes mijoté avec du riz, aux épices variées</td>
+    <td></td>
+  </tr>
+
+  </table>
+  <table>
+  <tr>
+    <td class="h5 produit">Biryani Poulet</td>
+    <td class="h5 prix">12,00 €</td>
+  </tr>
+  <tr>
+    <td class="p">Poulet désossé mijoté avec du riz, aux épices variées</td>
+    <td></td>
+  </tr>
+
+  </table>
+  <table>
+  <tr>
+    <td class="h5 produit">Biryani Agneau</td>
+    <td class="h5 prix">14,00 €</td>
+  </tr>
+  <tr>
+    <td class="p">Agneau mijoté avec du riz, aux épices variées</td>
+    <td></td>
+  </tr>
+
+  </table>
+  <table>
+  <tr>
+    <td class="h5 produit">Biryani Crevettes</td>
+    <td class="h5 prix">14,00 €</td>
+  </tr>
+  <tr>
+    <td class="p">Crevettes décortiquées mijoté avec du riz, aux épices variées</td>
+    <td></td>
+  </tr>
+
+  </table>
+  <table>
+  <tr>
+    <td class="h5 produit">Biryani Kashmiri</td>
+    <td class="h5 prix">15,00 €</td>
+  </tr>
+  <tr>
+    <td class="p">Mélange de légumes, poulet, agneau, crevettes mijoté avec du riz, aux épices variées</td>
+    <td></td>
+  </tr>
+
+  </table>
+      <hr  style="width:80%;color: #9d0606; margin-top:5%;    border-top: 3px double #9d0606;text-align:center;">
+</div>
+<h5>Curry de légumes</h5>
+<div class="disp">
+  <table>
+  <tr>
+    <td class="h5 produit">Palak Paneer</td>
+    <td class="h5 prix">7,00 €</td>
+  </tr>
+  <tr>
+    <td class="p">Fameux mélange d'épinards et fromage maison, aux épices variées</td>
+    <td></td>
+  </tr>
+
+</table>
+<table>
+<tr>
+  <td class="h5 produit">Palak Paneer</td>
+  <td class="h5 prix">7,00 €</td>
+</tr>
+<tr>
+  <td class="p">Fameux mélange d'épinards et fromage maison, aux épices variées</td>
+  <td></td>
+</tr>
+
+</table>
+
+<table>
+<tr>
+  <td class="h5 produit">Aloo gobi</td>
+  <td class="h5 prix">7,00 €</td>
+</tr>
+<tr>
+  <td class="p">Mélange de pommes de terres et de choux fleur aux herbes indiennes</td>
+  <td></td>
+</tr>
+
+</table>
+<table>
+<tr>
+  <td class="h5 produit">Matar Paneer</td>
+  <td class="h5 prix">7,00 €</td>
+</tr>
+<tr>
+  <td class="p">Petit pois et fromage en sauce douce</td>
+  <td></td>
+</tr>
+
+</table>
+<table>
+<tr>
+  <td class="h5 produit">Daal</td>
+  <td class="h5 prix">7,00 €</td>
+</tr>
+<tr>
+  <td class="p">Lentilles cuisinées à l'indienne, de façon traditionnel</td>
+  <td></td>
+</tr>
+
+</table>
+
+<table>
+<tr>
+  <td class="h5 produit">Bartha</td>
+  <td class="h5 prix">7,00 €</td>
+</tr>
+<tr>
+  <td class="p">spécialité du chef, purée d'aubergines aux épices</td>
+  <td></td>
+</tr>
+
+</table>
+<table>
+<tr>
+  <td class="h5 produit">Mix Sabzi</td>
+  <td class="h5 prix">7,00 €</td>
+</tr>
+<tr>
+  <td class="p">Assortissement de légumes épicés</td>
+  <td></td>
+</tr>
+
+</table>
+
+<table>
+<tr>
+  <td class="h5 produit">Daal Saag</td>
+  <td class="h5 prix">7,00 €</td>
+</tr>
+<tr>
+  <td class="p">Lentilles aux épinards et épicés</td>
+  <td></td>
+</tr>
+
+</table>
+<table>
+<tr>
+  <td class="h5 produit">Aloo Palak</td>
+  <td class="h5 prix">7,00 €</td>
+</tr>
+<tr>
+  <td class="p">Curry de pommes de terres aux épinards</td>
+  <td></td>
+</tr>
+
+</table>
+</div>
+</div>
+<div id="DessertCover">
+  <img  src="images/dessert.jpg"   alt="Photo dessert" />
+</div>
+
+<div id="contenuCarte">
+  <div class="maincarte">
+  <h2>Desserts   &ensp;&ensp;&ensp;  <span class="iconify" data-icon="emojione-monotone:ice-cream" width="35px" data-inline="false"></span></h2>
+</div>
+
+<div class="disp">
+  <table>
+  <tr>
+    <td class="h5 produit">Halwa Suji</td>
+    <td class="h5 prix">4,00 €</td>
+  </tr>
+  <tr>
+    <td class="p">Gâteau de semoule au coco, et aux amandes</td>
+    <td></td>
+  </tr>
+
+  </table>
+
+
+    <table>
+    <tr>
+      <td class="h5 produit">Kulfi</td>
+      <td class="h5 prix">3,00 €</td>
+    </tr>
+    <tr>
+      <td class="p">Spécialité du chef : Glace indienne/pakistanaise à base de pistaches, amandes, noix de cajou, cardamome et une touche de rose et mangue </td>
+      <td></td>
+    </tr>
+
+    </table>
+
+      <table>
+      <tr>
+        <td class="h5 produit">Gulab Jamun </td>
+        <td class="h5 prix">4,00 €</td>
+      </tr>
+      <tr>
+        <td class="p">Boules de semoule roulées au miel</td>
+        <td></td>
+      </tr>
+
+      </table>
+
+        <table>
+        <tr>
+          <td class="h5 produit">Sorbet</td>
+          <td class="h5 prix">4,00 €</td>
+        </tr>
+        <tr>
+          <td class="p">Passion, mangue, citron, coco, vanille, pistache, fraise, chocolat</td>
+          <td></td>
+        </tr>
+
+        </table>
+
+          <table>
+          <tr>
+            <td class="h5 produit">Coupe Kashmir</td>
+            <td class="h5 prix">5,00 €</td>
+          </tr>
+          <tr>
+            <td class="p">2 boules, noix de coco, sirop de mangue et sirop de rose</td>
+            <td></td>
+          </tr>
+
+          </table>
+</div>
+
+</div>
+
+<div id="BoissonCover">
+  <img  src="images/boissons.jpg"   alt="Photo Boissons" />
+</div>
+
+<div id="contenuCarte">
+  <div class="maincarte">
+  <h2>Boissons   &ensp;&ensp;&ensp;   <span class="iconify" width="35px" data-icon="emojione-monotone:tropical-drink" data-inline="false"></span></h2>
+</div>
+
+<h5>Boissons Lassis</h5>
+
+<div class="disp">
+<table>
+<tr>
+  <td class="h5 produit">Lassi nature (50 cl)</td>
+  <td class="h5 prix">5,00 €</td>
+</tr>
+<tr>
+  <td class="p">Boisson à base de yaourt nature</td>
+  <td></td>
+</tr>
+
+</table>
+<table>
+<tr>
+  <td class="h5 produit">Lassi salé (50 cl)</td>
+  <td class="h5 prix">5,00 €</td>
+</tr>
+<tr>
+  <td class="p">Boisson à base de yaourt salé</td>
+  <td></td>
+</tr>
+
+</table>
+<table>
+<tr>
+  <td class="h5 produit">Lassi sucré (50 cl)</td>
+  <td class="h5 prix">5,00 €</td>
+</tr>
+<tr>
+  <td class="p">Lassi à base de yaourt sucré</td>
+  <td></td>
+</tr>
+
+</table>
+
+<table>
+<tr>
+  <td class="h5 produit">Lassi Mangue ou Banane (50 cl)</td>
+  <td class="h5 prix">5,00 €</td>
+</tr>
+<tr>
+  <td class="p">Boisson à base de yaourt à la mangue ou banane</td>
+  <td></td>
+</tr>
+
+</table>
+
+    <hr  style="width:80%;color: #9d0606; margin-top:5%;    border-top: 3px double #9d0606;text-align:center;">
+
+</div>
+
+
+<h5>Apéritifs</h5>
+
+<div class="disp">
+<table>
+<tr>
+  <td class="h5 produit">Coupe de champagne</td>
+  <td class="h5 prix">6,50 €</td>
+</tr>
+<tr>
+  <td class="p"></td>
+  <td></td>
+</tr>
+
+</table>
+<table>
+<tr>
+  <td class="h5 produit">Kir</td>
+  <td class="h5 prix">4,00 €</td>
+</tr>
+<tr>
+  <td class="p"></td>
+  <td></td>
+</tr>
+
+</table>
+<table>
+<tr>
+  <td class="h5 produit">Kir Royal</td>
+  <td class="h5 prix">7,00 €</td>
+</tr>
+<tr>
+  <td class="p"></td>
+  <td></td>
+</tr>
+
+</table>
+
+<table>
+<tr>
+  <td class="h5 produit">Martini Rouge ou Rose</td>
+  <td class="h5 prix">5,00 €</td>
+</tr>
+<tr>
+  <td class="p"></td>
+  <td></td>
+</tr>
+
+</table>
+
+<table>
+<tr>
+  <td class="h5 produit">Whisky Johnny Walker</td>
+  <td class="h5 prix">5,00 €</td>
+</tr>
+<tr>
+  <td class="p"></td>
+  <td></td>
+</tr>
+
+</table>
+<table>
+<tr>
+  <td class="h5 produit">Whisky J&B, Jack Daniels</td>
+  <td class="h5 prix">5,00 €</td>
+</tr>
+<tr>
+  <td class="p"></td>
+  <td></td>
+</tr>
+
+</table>
+
+<table>
+<tr>
+  <td class="h5 produit">Whisky Chivas Regal</td>
+  <td class="h5 prix">6,00 €</td>
+</tr>
+<tr>
+  <td class="p"></td>
+  <td></td>
+</tr>
+
+</table>
+<table>
+<tr>
+  <td class="h5 produit">Porto, Ricard, Vodka</td>
+  <td class="h5 prix">5,00 €</td>
+</tr>
+<tr>
+  <td class="p"></td>
+  <td></td>
+</tr>
+
+</table>
+    <hr  style="width:80%;color: #9d0606; margin-top:5%;    border-top: 3px double #9d0606;text-align:center;">
+
+</div>
+
+
+<h5>Bières</h5>
+
+<div class="disp">
+<table>
+<tr>
+  <td class="h5 produit">Bière indienne (33 cl)</td>
+  <td class="h5 prix">5,00 €</td>
+</tr>
+<tr>
+  <td class="p"></td>
+  <td></td>
+</tr>
+
+</table>
+<table>
+<tr>
+  <td class="h5 produit">Carlsberg, Heineken</td>
+  <td class="h5 prix">5,00 €</td>
+</tr>
+<tr>
+  <td class="p"></td>
+  <td></td>
+</tr>
+
+</table>
+    <hr  style="width:80%;color: #9d0606; margin-top:5%;    border-top: 3px double #9d0606;text-align:center;">
+
+</div>
+
+    <h5>Boissons sans Alcool</h5>
+
+<div class="disp">
+    <table>
+    <tr>
+      <td class="h5 produit">Nimboupani</td>
+      <td class="h5 prix">4,00 €</td>
+    </tr>
+    <tr>
+      <td class="p">Boisson au citron frais, un mélange salé, sucré et rafraîchissant</td>
+      <td></td>
+    </tr>
+
+  </table>
+
+  <table>
+  <tr>
+    <td class="h5 produit">Coca-cola (33 cl)</td>
+    <td class="h5 prix">3,00 €</td>
+  </tr>
+  <tr>
+    <td class="p"></td>
+    <td></td>
+  </tr>
+
+  </table>
+
+
+    <table>
+    <tr>
+      <td class="h5 produit">Jus d'orange, Jus d'ananas, Jus de pomme (25 cl)</td>
+      <td class="h5 prix">3,00 €</td>
+    </tr>
+    <tr>
+      <td class="p"></td>
+      <td></td>
+    </tr>
+
+    </table>
+
+
+      <table>
+      <tr>
+        <td class="h5 produit">Orangina (25 cl)</td>
+        <td class="h5 prix">3,00 €</td>
+      </tr>
+      <tr>
+        <td class="p"></td>
+        <td></td>
+      </tr>
+
+      </table>
+
+        <table>
+        <tr>
+          <td class="h5 produit">Evian, Badoit (100 cl)</td>
+          <td class="h5 prix">5,00 €</td>
+        </tr>
+        <tr>
+          <td class="p"></td>
+          <td></td>
+        </tr>
+
+        </table>
+
+
+          <table>
+          <tr>
+            <td class="h5 produit">Evian, Badoit (50 cl)</td>
+            <td class="h5 prix">4,00 €</td>
+          </tr>
+          <tr>
+            <td class="p"></td>
+            <td></td>
+          </tr>
+
+          </table>
+
+
+
+            <table>
+            <tr>
+              <td class="h5 produit">Perrier, Schweppes (25 cl)</td>
+              <td class="h5 prix">3,00 €</td>
+            </tr>
+            <tr>
+              <td class="p"></td>
+              <td></td>
+            </tr>
+
+            </table>
+                <hr  style="width:80%;color: #9d0606; margin-top:5%;    border-top: 3px double #9d0606;text-align:center;">
+
+
+
+
+</div>
+
+<h5>Boissons Chaudes</h5>
+<div class="disp">
+
+
+
+              <table>
+              <tr>
+                <td class="h5 produit">Thé Maison nature</td>
+                <td class="h5 prix">2,50 €</td>
+              </tr>
+              <tr>
+                <td class="p"></td>
+                <td></td>
+              </tr>
+
+              </table>
+
+
+                          <table>
+                          <tr>
+                            <td class="h5 produit">Thé à la menthe</td>
+                            <td class="h5 prix">2,50 €</td>
+                          </tr>
+                          <tr>
+                            <td class="p"></td>
+                            <td></td>
+                          </tr>
+
+                          </table>
+
+
+                                      <table>
+                                      <tr>
+                                        <td class="h5 produit">Café, Décaféiné</td>
+                                        <td class="h5 prix">1,50 €</td>
+                                      </tr>
+                                      <tr>
+                                        <td class="p"></td>
+                                        <td></td>
+                                      </tr>
+
+                                      </table>
+
+
+                                          <hr  style="width:80%;color: #9d0606; margin-top:5%;    border-top: 3px double #9d0606;text-align:center;">
+
+
+
+
+</div>
+
+
+
+<h5>Vins</h5>
+
+
+<div class="dispVin">
+
+
+  <table>
+    <tr>
+            <th>Vins Rouge</th>
+            <th>75 cl</th>
+            <th>37.5 cl</th>
+    </tr>
+  <tr class="nomVin">
+    <td class="h5 produit">Bordeaux supérieur</td>
+    <td class="h5 prix">16.60 €</td>
+    <td class="h5 prix">11,50 €</td>
+  </tr>
+  <tr>
+    <td class="p">AOC (Fontbreuil)</td>
+    <td></td>
+  </tr>
+
+  <tr class="nomVin">
+  <td class="h5 produit">St Emilion</td>
+  <td class="h5 prix">25.00 €</td>
+  <td class="h5 prix">15,20 €</td>
+  </tr>
+  <tr>
+  <td class="p">AOC (Grand Barail Larose)</td>
+  <td></td>
+  </tr>
+
+
+  <tr class="nomVin">
+  <td class="h5 produit">Brouilly</td>
+  <td class="h5 prix">23,50 €</td>
+  <td class="h5 prix">14,40 €</td>
+  </tr>
+  <tr>
+  <td class="p">AOC (Cru de Beaujolais)</td>
+  <td></td>
+</tr>
+
+
+<tr class="nomVin">
+<td class="h5 produit">Vin Indien</td>
+<td class="h5 prix">23,00 €</td>
+<td class="h5 prix">13,50 €</td>
+</tr>
+<tr>
+<td class="p">(Grover)</td>
+<td></td>
+</tr>
+
+
+  </table>
+
+
+    <table>
+      <tr>
+              <th>Vins Rosé</th>
+              <th>75 cl</th>
+              <th>37.5 cl</th>
+      </tr>
+    <tr class="nomVin">
+      <td class="h5 produit">Côtes de provence</td>
+      <td class="h5 prix">15.90 €</td>
+      <td class="h5 prix">11,20 €</td>
+    </tr>
+    <tr>
+      <td class="p">AOC (Les Vignerons de Grimaud)</td>
+      <td></td>
+    </tr>
+
+    <tr class="nomVin">
+    <td class="h5 produit">Bandol</td>
+    <td class="h5 prix">26.50 €</td>
+    <td class="h5 prix">15,50 €</td>
+    </tr>
+    <tr>
+    <td class="p">AOC (Domaine de l'hermitage)</td>
+    <td></td>
+    </tr>
+
+
+    <tr class="nomVin">
+    <td class="h5 produit">Tavel</td>
+    <td class="h5 prix">24,10 €</td>
+    <td class="h5 prix">13,40 €</td>
+    </tr>
+    <tr>
+    <td class="p">AOC (Armand Dazrtois)</td>
+    <td></td>
+  </tr>
+
+
+  <tr class="nomVin">
+  <td class="h5 produit">Sancerre</td>
+  <td class="h5 prix">26,30 €</td>
+  <td class="h5 prix"></td>
+  </tr>
+  <tr>
+  <td class="p">AOC (Grand Réserve)</td>
+  <td></td>
+  </tr>
+
+
+    </table>
+
+
+
+    <table>
+      <tr>
+              <th>Vins Blanc</th>
+              <th>75 cl</th>
+              <th>37.5 cl</th>
+      </tr>
+    <tr class="nomVin">
+      <td class="h5 produit">Muscadet</td>
+      <td class="h5 prix">15,90 €</td>
+      <td class="h5 prix">11,20 €</td>
+    </tr>
+    <tr>
+      <td class="p">AOC (Sèvre & Maine)</td>
+      <td></td>
+    </tr>
+
+    <tr class="nomVin">
+    <td class="h5 produit">Sancerre</td>
+    <td class="h5 prix">28,50 €</td>
+    <td class="h5 prix">15,50 €</td>
+    </tr>
+    <tr>
+    <td class="p">AOC (Grand Réserve)</td>
+    <td></td>
+    </tr>
+
+
+    </table>
+
+        <table>
+        <tr class="nomVin">
+          <td class="h5 produit">Champagne Brut</td>
+          <td class="h5 prix">48,00 €</td>
+          <td class="h5 prix"></td>
+        </tr>
+        <tr>
+          <td class="p"> (Nicolas Feuillatte)</td>
+          <td></td>
+        </tr>
+
+        </table>
+</div>
+</div>
+
+<div class="pre-footer">
+  <div>
+    <h5><i class="fa fa-clock-o" aria-hidden="true"></i> Horaires / <i class="fa fa-map-marker" aria-hidden="true"></i> localisation</h5>
+      <p><i class="fa fa-calendar"></i> Ouvert tous les jours : <br> <strong>Matin</strong> : 11h30 - 15h30 <br><strong>Soir</strong> : 18h00 - 23h30 </p>
+      <p><i class="fa fa-map-marker" aria-hidden="true"></i><a href="https://www.google.com/maps/place/106+Avenue+de+Saint-Mand%C3%A9,+75012+Paris/@48.8441119,2.407665,17z/data=!3m1!4b1!4m5!3m4!1s0x47e67262b9f4e4a3:0x3d12d378076e331e!8m2!3d48.8441119!4d2.4098537"> <i class="fa fa-angle-double-right"></i> 106 Avenue de Saint-Mandé, 75012 Paris</a></p>
+  </div>
+  <div>
+    <h5>Nous contacter / Passer une commande</h5>
+    <p><i class="fa fa-phone" style="font-size:16px" aria-hidden="true"> Téléphone :
+      <a class="tel" href="tel:+33143441195">
+      &ensp;01 43 44 11 95</i>
+      </a>
+    </p>
+    <p><i class="fa fa-envelope"></i> Mail :
+      <a class="tel" href="mailto:restajmahalparis12@gmail.com">
+        &ensp;restajmahalparis12@gmail.com</i>
+    </a>
+    <p>Sur les réseaux :  <a href="https://www.facebook.com/tajmahalparis12"><i class="fa fa-facebook-square" style="font-size:20px">&ensp;</i></a> <a href="https://www.instagram.com/tajmahalparis12/">   <i class="fa fa-instagram"  aria-hidden="true" style="font-size:20px"></i></a></p>
+    <p>Passer une commande sur :
+    		   <a href="https://www.ubereats.com/fr/paris/food-delivery/taj-mahal/JP9zIyg4RdihwVa0N7lmoA?utm_source=google&utm_medium=organic&utm_campaign=place-action-link"><img  src="images/uber.jpg" href="#" width=40px   alt="uber" /></a>
+    <a href="https://www.just-eat.fr/menu/taj-mahal-30?utm_campaign=foodorder&utm_medium=organic&utm_source=google"><img  src="images/justeat.png" href="#" width=40px   alt="just eat" /></a>
+    <a href="https://deliveroo.fr/fr/menu/paris/paris-12eme-bel-air/taj-mahal-france?utm_medium=affiliate&utm_source=google_maps_link"><img  src="images/deliveroo.png" href="#" width=40px   alt="deliveroo" /></a>
+
+    </p>
+  </div>
+  <div>
+    <h5>Restaurant Taj Mahal</h5>
+    <i class="fa fa-wifi" aria-hidden="true"> Wifi disponible</i><br>
+    <i class="fa fa-credit-card"> Cash, ticket restaurant, carte bleu</i>
+    <p>Le restaurant est adapté aux végétariens</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.7392652880426!2d2.407665015673874!3d48.84411187928606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67262b9f4e4a3%3A0x3d12d378076e331e!2s106%20Avenue%20de%20Saint-Mand%C3%A9%2C%2075012%20Paris!5e0!3m2!1sfr!2sfr!4v1596836434971!5m2!1sfr!2sfr" width="250" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  </div>
+</div>
+<div class='scrolltop'>
+    <div class='scroll icon'><i class="fa fa-rocket" aria-hidden="true"></i></div>
+</div>
+<footer>
+  <p>Copyright &#169; by Jaswinder Singh - Taj Mahal Paris 12</p>
+</footer>
+
+</body>
+
+</html>
